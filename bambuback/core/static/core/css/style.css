@@ -1,0 +1,1473 @@
+body {
+    background-color: #b7d2c3;
+    font-family: 'oboto', 'abril fatface';
+}
+
+/* comienza el diseño del header */
+header {
+    width: 960px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    background-color: #3d6953;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-left: 50px;
+}
+
+#titulo {
+    text-align: center;
+    color: #dde7ec;
+    margin: 0;
+    margin-right: 200px;
+    padding: 10px;
+    font-family: 'Abril Fatface';
+}
+
+.navbar {
+    width: 400px;
+    height: 40px;
+    float: right;
+    margin-top: 20px;
+}
+
+.navbar ul {
+    margin-top: -50px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline;
+    cursor: pointer;
+}
+
+.navbar ul li a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #7ca692;
+    color: #dde7ec;
+    font-weight: bold;
+    text-decoration: none;
+    border-left: 0.08em solid;
+    border-radius: 2em;
+}
+
+.navbar ul li a:hover {
+    color: #5fb88a;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Comienza el diseño del carrousel de presentación con dos imagenes y promocionando servicios */
+
+.inicio {
+    width: 960px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.carrousel {
+    width: 50%;
+    max-width: 120em;
+    padding: 2em;
+    border-style: inset;
+    border-color: #e1c6cc;
+    background-color: #e1c6cc;
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}
+
+.fondo_grande {
+    width: 200%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.4s ease;
+    padding: 2em;
+    background-color: #b7d2c3;
+    border-radius: 1em;
+    border-style: outset;
+    transition: all .5s ease;
+    transform: translateX(0%);
+}
+
+.fondo_grande .img {
+    width: calc(100% / 2 - 2em);
+    min-height: 10vh;
+    border-style: inset;
+    border-color: #b7d2c3;
+    border-radius: 1em;
+    transition: all 0.4s ease;
+}
+
+.puntos {
+    width: 100%;
+    margin: 1em 0 0;
+    padding: 0.4em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.punto {
+    width: 2em;
+    height: 2em;
+    margin: 1em 1em 0;
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    background-color: #b7d2c3;
+    list-style-type: none;
+}
+
+.activo {
+    background-color: #7ca692;
+}
+
+/* Diseño de botón para ver más */
+.masServicios {
+    border: 1px solid #3d6953;
+    padding: 10px;
+    background-color: #3d6953;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'roboto';
+    border-radius: 50px;
+    float: right;
+}
+
+/* Diseño del titular al lado del carrusel de fotos */
+
+.titular {
+    width: 20%;
+    height: auto;
+    padding: 2em;
+    background-color: #3d6953;
+    float: left;
+    text-align: center;
+    font-family: 'abril fatface';
+    color: rgb(0, 0, 0);
+    margin-top: 150px;
+    margin-left: 60px;
+}
+
+/* Diseño sección opiniones de clientes */
+.clientes {
+    background-color: #7ca692;
+    width: 900px;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid #3d6953;
+    border-radius: 1em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: auto;
+    float: left;
+}
+
+.clientes h3 {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: 'abril fatface';
+}
+
+.opinion1 {
+    background-color: #e1c6cc;
+    width: 200px;
+    height: 240px;
+    padding: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-style: outset;
+    border-radius: 1em;
+    float: left;
+}
+
+.opinion1 p {
+    text-align: center;
+    font-family: 'roboto';
+    text-justify: distribute;
+    font-style: oblique;
+}
+
+.opinion1 h4 {
+    text-align: end;
+    font-style: italic;
+    font-family: 'roboto';
+
+}
+
+.opinion2 {
+    background-color: #e1c6cc;
+    width: 200px;
+    height: 240px;
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-style: outset;
+    border-radius: 1em;
+    float: left;
+}
+
+.opinion2 p {
+    text-align: center;
+    font-family: 'roboto';
+    text-justify: distribute;
+    font-style: oblique;
+}
+
+.opinion2 h4 {
+    text-align: end;
+    font-style: italic;
+    font-family: 'roboto';
+    padding-top: 30px;
+}
+
+.opinion3 {
+    background-color: #e1c6cc;
+    width: 200px;
+    height: 240px;
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-style: outset;
+    border-radius: 1em;
+    float: left;
+}
+
+.opinion3 p {
+    text-align: center;
+    font-family: 'roboto';
+    text-justify: distribute;
+    font-style: oblique;
+}
+
+.opinion3 h4 {
+    text-align: end;
+    font-style: italic;
+    font-family: 'roboto';
+    padding-top: 49px;
+
+}
+
+/* Comienza el diseño del aside y se agrega un video al lado */
+
+.article2 {
+    width: 960px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quienes_somos {
+    background-image: url(../img/fondo.jpg);
+    background-size: auto auto;
+    background-attachment: fixed;
+    background-position: center center;
+    padding: 20px;
+    width: 400px;
+    height: 350px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    float: left;
+    border-style: outset;
+    border-radius: 2em;
+}
+
+.quienes_somos h2 {
+    text-align: left;
+    font-family: 'abril fatface';
+    color: black;
+}
+
+.quienes_somos .descripcion p {
+    text-align: center;
+    font-size: larger;
+    font-family: 'roboto';
+    margin-top: 50px;
+    display: flex;
+}
+
+.videoInicio {
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+.promo iframe {
+    width: 450px;
+    height: 350px;
+    padding: 20px;
+    margin-left: -80px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+/*nuestros valores*/
+.tablaValores {
+    width: 960px;
+    padding: 80px;
+}
+
+.tabla table {
+    margin-top: 30px;
+    margin-left: 20px;
+    border-collapse: collapse;
+    /*junta los bordes en una sola linea*/
+    align-self: center;
+    width: 800px;
+    height: 500px;
+    padding: 20px;
+
+}
+
+.tabla .valores td {
+    text-align: center;
+    border: 1px solid #3C6952;
+    padding: 40px;
+}
+
+.tabla .valores tr:first-child td {
+    border-top: none;
+}
+
+.tabla .valores tr:last-child td {
+    border-bottom: none;
+}
+
+.column h3 {
+    font-family: 'abril fatface';
+    color: black;
+}
+
+/*page servicios*/
+.cards {
+    width: 960px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    align-items: center;
+}
+
+.cards h2 {
+    width: 860px;
+    color: #3C6952;
+    font-size: 60px;
+    font-family: 'Abril Fatface';
+    margin-left: 30px;
+    text-shadow: 2px 2px 2px #ccc;
+    /*sombra*/
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+
+.tarjeta {
+    width: 880px;
+    margin-bottom: 20px;
+    background-color: #DCC6CA;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.tarjeta img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+h3 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'Abril Fatface';
+    font-weight: 200;
+}
+
+p {
+    color: #000000;
+    font-family: 'Roboto';
+    text-align: left;
+    padding: 10px;
+}
+
+
+.precio p {
+    color: #000000;
+    font-weight: bold;
+    padding: 10px;
+}
+
+button {
+    background-color: #e2eadf;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: #3C6952;
+}
+
+button:hover {
+    background-color: #5fb88a;
+
+}
+
+/*GALERIA*/
+
+#titlo_galeria {
+    text-align: center;
+    color: #3C6952;
+    font-size: 60px;
+    font-family: 'Abril Fatface';
+    margin-top: 10px;
+    text-shadow: 2px 2px 2px #ccc;
+    /*sombra*/
+    padding: 20px;
+}
+
+.section_galeria {
+    display: flex;
+    width: 960px;
+    height: 500px;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.section_galeria img {
+    width: 0px;
+    height: 600px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.section_galeria img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+/*Page mis reservas*/
+
+.mis_reservas {
+    width: 960px;
+    height: 800px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+    margin-right: 10px;
+    float: left;
+    text-align: start;
+}
+
+.formulario {
+    width: 400px;
+    height: 600px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left:20px;
+}
+
+.formulario h2 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 10px;
+    font-family: 'Abril Fatface';
+    font-weight: 200;
+    font-family: 'Abril Fatface';
+    letter-spacing: 2px;
+    /* espacio entre letras  */
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1cqb;
+}
+
+.formulario p {
+    margin: 10px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #3C6952;
+    font-weight: bold;
+}
+
+iframe {
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    margin-left: 500px;
+    margin-top: -500px;
+}
+
+fieldset {
+    margin-top: 10px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px #000000;
+    border: none;
+}
+
+.campo {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: 2px 2px 5px #000000;
+}
+
+label {
+    margin-right: 10px;
+    font-family: 'Roboto';
+}
+
+.formulario button {
+    background-color: #3C6952;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#comentarios {
+    height: 100px;
+    width: 100%;
+    border: none;
+    box-shadow: 2px 2px 5px #000000;
+}
+
+legend {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #3C6952;
+    font-weight: bold;
+}
+
+/* Comienza el diseño del footer */
+
+footer {
+    width: 960px;
+    height: 320px;
+    background-color: #3d6953;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: auto;
+    
+}
+
+#direccion {
+    width: 150px;
+    height: 180px;
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+#direccion h3 {
+    font-size: 20px;
+    color: #dde7ec;
+}
+
+#direccion p {
+    font-size: 15px;
+    color: #dde7ec;
+    font-family: 'roboto';
+}
+
+#mapa {
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#horarios {
+    width: 150px;
+    height: 250px;
+    float: left;
+    color: #dde7ec;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#horarios h3 {
+    font-size: 20px;
+    color: #dde7ec;
+}
+
+#horarios p {
+    font-size: 10px;
+    font-family: 'roboto';
+    color: #dde7ec;
+}
+
+.redes {
+    width: 150px;
+    height: 180px;
+    margin-top: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+    color: #e1c6cc;
+    padding: 20px;
+}
+
+.redes h3 {
+    font-size: 20px;
+    color: #dde7ec;
+    font-family: 'Abril Fatface';
+}
+
+.redes i a {
+    font-size: 15px;
+    font-family: 'roboto';
+    margin-right: 20px;
+}
+
+.fa-brands {
+    color: #e1c6cc;
+}
+
+.redes a {
+    color: #dde7ec;
+    font-size: 10px;
+}
+
+.contacto {
+    width: 150px;
+    height: 180px;
+    margin-top: 0;
+    margin-right: 10px;
+    margin-left: auto;
+    float: left;
+    color: #e1c6cc;
+    padding: 20px;
+}
+
+.contacto h3 {
+    font-size: 20px;
+    color: #dde7ec;
+    font-family: 'Abril Fatface';
+}
+
+.contacto i a {
+    font-size: 15px;
+    font-family: 'roboto';
+    margin-right: 20px;
+}
+
+.contacto a {
+    color: #dde7ec;
+    font-size: 10px;
+}
+
+#copyright {
+    width: 250px;
+    height: 180px;
+    padding: 20px; 
+    float: none;
+    margin-left: 340px;
+}
+
+#copyright h4 {
+    font-size: 15px;
+    color: #dde7ec;
+}
+
+/*Comienza el Responsive*/
+
+/*Responsive para tablets*/
+
+@media all and (min-width: 600px) and (max-width:1024px) {
+
+    /* comienza el diseño del header */
+    header {
+        width: 100%;;
+        height: 140px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #logo {
+        width: 140px;
+        height: 140px;
+        float: left;
+        margin-left: 1em;
+    }
+    
+    #titulo {
+        text-align: center;
+        color: #dde7ec;
+        padding: 10px;
+        font-family: 'Abril Fatface';
+    }
+    
+    .navbar {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-top: 30px;
+        margin-left: 300px;
+        padding: 2em;
+    }
+    
+    /* Comienza el diseño del carrousel de presentación con dos imagenes y promocionando servicios */
+    
+    .inicio {
+        width: 580px;
+        height: 1800px;
+    }
+    
+    
+    /* Diseño del titular al lado del carrusel de fotos */
+    
+    .titular {
+        width: 285px;
+        height: 150px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 10px;
+        padding: 2em;
+        float: none;
+    }
+    
+    /* Diseño sección opiniones de clientes */
+    .clientes {
+        width: 500px;
+        height: 850px;
+        padding: 20px;
+        margin-top: 220px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: auto;
+        float: none;
+    }
+    
+    .opinion1 {
+        width: 400px;
+        height: 160px;
+        padding: 30px;
+        margin-left: 20px;
+        margin-right: 10px;
+        float: none;
+    }
+    
+    .opinion2 {
+        width: 400px;
+        height: 150px;
+        padding: 30px;
+        margin-left: 20px;
+        margin-right: 10px;
+        float: none;
+    }
+    
+    .opinion3 {
+        width: 400px;
+        height: 150px;
+        padding: 30px;
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-top: 10px;
+        float: none;
+    }
+    .opinion3 h4 {
+        padding-top: 30px;
+    }
+
+    .opinion2 h4 {
+        padding-top: 10px;
+    }
+
+    /* Comienza el diseño del aside y se agrega un video al lado */
+    
+    .article2 {
+        width: 580px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .quienes_somos {
+        padding: 2em;
+        width: 400px;
+        height: 350px;
+        margin-top: -450px;
+        margin-left: 50px;
+        margin-bottom: auto;
+        float: none;
+    }
+    
+    .videoInicio {
+        width: 400px;
+        height: 300px;
+        padding: 20px;
+        margin-top: 10px;
+        float: none;
+    }
+    
+    .promo iframe {
+        width: 520px;
+        height: 300px;
+        padding: 2em;
+        margin-left: 60px;
+    }
+    
+    /*nuestros valores*/
+    .tablaValores {
+        width: 95%;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tabla table {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        border-collapse: collapse;
+        align-self: center;
+        width: 95%;
+        padding: 2em;
+    }
+
+    .tabla .valores td {
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    /*page servicios*/
+    .cards {
+        width: 600px;
+        height: auto;
+        padding: 20px;
+        margin-left: 60px;
+    }
+    
+    .cards h2 {
+        width: 600px;
+        font-size: 25px;
+        margin: 0;
+    }
+    
+    .tarjeta {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    h3 {
+        font-size: 20px;
+        margin-top: 10px;
+        padding: 2em;
+    }
+    
+    p {
+        font-size: 15px;
+        text-align: left;
+        padding: 20px;
+    }
+    
+    /*GALERIA*/
+    
+    #titlo_galeria {
+        font-size: 40px;
+    }
+    
+    .section_galeria {
+        display: flex;
+        width: 580px;
+        height: 500px;
+        padding: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    
+    /*Page mis reservas*/
+    
+    .mis_reservas {
+        width: 580px;
+        height: 1600px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 150px;
+        margin-right: 10px;
+        float: none;
+        text-align: start;
+    }
+    
+    .formulario {
+        width: 400px;
+        height: 600px;
+        margin-left: 30px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    .formulario h2 {
+        color: #333;
+        font-size: 24px;
+        margin-top: 10px;
+        font-family: 'Abril Fatface';
+        font-weight: 200;
+        font-family: 'Abril Fatface';
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+        margin-bottom: 1cqb;
+    }
+    
+    .formulario p {
+        margin: 10px;
+        font-family: 'Roboto';
+        font-size: 18px;
+        color: #3C6952;
+        font-weight: bold;
+    }
+    
+    iframe {
+        width: 500px;
+        height: 500px;
+        padding: 20px;
+        margin-left: 110px;
+        margin-bottom: 10px;
+    }
+    
+    fieldset {
+        margin-top: 10px;
+        background-color: #ffffff;
+        box-shadow: 2px 2px 5px #000000;
+        border: none;
+    }
+    
+    .campo {
+        padding: 8px;
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        box-shadow: 2px 2px 5px #000000;
+    }
+    
+    label {
+        margin-right: 10px;
+        font-family: 'Roboto';
+    }
+    
+    /* Comienza el diseño del footer */
+    footer {
+        width: 100%;
+        height: 360px;
+    }
+    
+    #direccion {
+        width: 110px;
+        height: auto;
+        float: left;
+        margin-top: 0;
+        margin-left:none;
+        padding: none;
+    }
+    
+    #direccion h3 {
+        font-size: 16px;
+    }
+    
+    #direccion p {
+        font-size: 12px;
+    }
+    
+    #mapa {
+        width: 100px;
+        height: 100px;
+        margin-left: none;
+        float: left;
+        padding: 10px;
+    }
+    
+    #horarios {
+        width: 110px;
+        height: auto;
+        float: left;
+        padding: 10px;
+        margin-left: none;
+        margin-top: 0;
+    }
+    
+    #horarios h3 {
+        font-size: 15px;
+    }
+    
+    #horarios p {
+        font-size: 10px;
+    }
+    
+    .redes {
+        width: 140px;
+        height: 50px;
+        margin-left: none;
+        margin-top: 0;
+        float: left;
+        padding: 10px;
+    }
+    
+    .redes h3 {
+        font-size: 15px;
+    }
+    
+    .redes i a {
+        font-size: 10px;
+    }
+
+    .contacto {
+        width: 90px;
+        height: 50px;
+        float: left;
+        margin-left: none;
+        margin-top: 0;
+        margin-right: 0;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .contacto h3 {
+        font-size: 15px;
+    }
+    
+    .contacto i a {
+        font-size: 10px;
+    }
+    
+    .contacto a {
+        font-size: 10px;
+    }
+
+    #copyright {
+        float: inline-end;
+        width: 300px;
+        height: auto;
+        padding: 0;
+        margin-right: 140px;
+
+    }
+    #copyright h4 {
+        font-size: 10px;
+    }
+}
+    
+/* Termina el responsive de tablet*/
+
+/* Empieza el responsive para celular */
+@media all and (max-width:599px) {
+    header {
+        width: 90%;
+        height: auto;
+    }
+    
+    #logo {
+        width: 50%;
+        height: auto;
+        float: none;
+        padding: 3.5em;
+    }
+    
+    #titulo {
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+        font-family: 'Abril Fatface';
+    }
+    
+    .navbar {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-top: 20px;
+    }
+    
+    .navbar ul {
+        margin: 0;
+        padding: 0;
+        float: none;
+        list-style-type: none;
+    }
+    
+    .navbar ul li {
+        display: block;
+        cursor: pointer;
+    }
+    
+    .navbar ul li a {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+        padding: 10px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    /* Comienza el diseño del carrousel de presentación con dos imagenes y promocionando servicios */
+    
+    .inicio {
+        width: 90%;
+        height: auto;
+    }
+    
+    /* Diseño de botón para ver más */
+    .masServicios {
+        width: auto;
+        margin-top: 30px;
+        padding: 10px;
+        border-radius: 2em;
+        float: right;
+    }
+    
+    /* Diseño del titular al lado del carrusel de fotos */
+    
+    .titular {
+        width: 25%;
+        height: auto;
+        text-align: left;
+        padding: 1em;
+        float: none;
+        margin-top: 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    /* Diseño sección opiniones de clientes */
+    .clientes {
+        width: 90%;
+        height: 1150px;
+        padding: 10px;
+        margin-top: 200px;
+        margin-bottom: 10px;
+        float: none;
+    }
+    
+    .opinion1 {
+        width: 60%;
+        height: auto;
+        padding: 2em;
+        float: none;
+        margin-bottom: 10px;
+        margin-left: 40px;
+    }
+    
+    .opinion2 {
+        width: 60%;
+        height: auto;
+        padding: 2em;
+        margin-top: 10px;
+        margin-left: 40px;
+        float: none;
+    }
+    
+    .opinion3 {
+        width: 60%;
+        height: auto;
+        padding: 2em;
+        float: none;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    
+    /* Comienza el diseño del aside y se agrega un video al lado */
+    
+    .article2 {
+        width: 90%;
+        height: auto;
+    }
+    
+    .quienes_somos {
+        padding: 20px;
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 0;
+        float: none;
+    }
+    
+    .videoInicio {
+        width: 90%;
+        height: auto;
+        float: none;
+    }
+    
+    .promo iframe {
+        width: 90%;
+        height: 350px;
+        padding: 20px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    
+    /*nuestros valores*/
+    .tablaValores {
+        width: 20%;
+        height: auto;
+        padding: 0;
+        float: none;
+    }
+
+    .tabla table {
+        margin-top: 10px;
+        width: 20%;
+        height: auto;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .tabla .valores td {
+        text-align: left;
+        padding: 0;
+    }
+    
+    /*page servicios*/
+    .cards h2 {
+        width: 390px;
+        float: none;
+        padding: 10px;
+    }
+    
+    .tarjeta {
+        width: 430px;
+        margin-bottom: 10px;
+        margin-right: auto;
+        margin-left: 20px;
+        float: none;
+        margin-top: 10px;
+    }
+
+    .tarjeta p {
+        padding: 10px;
+    }
+    
+    .tarjeta h3 {
+        padding: 10px;
+    }
+    
+    /*GALERIA*/
+
+    .section_galeria {
+        width: 100%;
+        height: 400px;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+    
+    .section_galeria img {
+        width: 0px;
+        height: 400px;
+        align-items: center;
+    }
+    
+    .section_galeria img:hover {
+    
+        cursor: crosshair;
+        width: 300px;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+    
+    /*Page mis reservas*/
+    
+    .mis_reservas {
+        width: 90%;
+        height: auto;
+        float: none;
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+    .formulario {
+        width: 90%;
+        height: auto;
+    }
+    
+    .calendar {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    iframe {
+        width: 90%;
+        height: 500px;
+        float: none;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 25px;
+    
+    }
+    
+    /* Comienza el diseño del footer */
+    footer {
+        width: 90%;
+        height: auto;
+        float: none;
+    }
+    
+    #direccion {
+        width: 90%;
+        height: auto;
+        float: none;
+        margin-left: 10px;
+        padding: 10px;
+    }
+    
+    #direccion h3 {
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    #direccion p {
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    #mapa {
+        width: 90%;
+        height: 200px;
+        float: none;
+        padding: 10px;
+        margin-left: 10px;
+    }
+    
+    #horarios {
+        width: 90%;
+        height: auto;
+        float: none;
+        padding: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    #horarios h3 {
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    #horarios p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .redes {
+        width: 90%;
+        height: auto;
+        float: none;
+        padding: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .redes h3 {
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .redes i a {
+        font-size: 10px;
+    }
+
+    .redes a {
+        font-size: 10px;
+    }
+
+   .contacto {
+        width: 90%;
+        height: auto;
+        float: none;
+        padding: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .contacto h3 {
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .contacto i a {
+        font-size: 10px;
+    }
+
+    .contacto a {
+        font-size: 10px;
+    } 
+    
+    #copyright {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+
+    #copyright h4 {
+        font-size: 10px;
+        margin-left: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+}
+/* termina el responsive para celular */

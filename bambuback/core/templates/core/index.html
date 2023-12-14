@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--COMIENZO DEL HEAD-->
+
+
+<!--CARGAR REFERENCIAS ESTÁTICAS -->
+{% load static %}   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA BAMBÚ</title> <!--Para nombrar la pestaña de la web-->
+    <link rel="Shortcut icon" href="/core/static/core/img/logo.ico" type="image/x-icon"> <!--ICO del logo -->
+    <link rel="stylesheet" href="/core/static/core/css/style.css"> <!--Unir el CSS-->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--fuentes de google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<!--FIN DEL HEAD-->
+
+
+<!--COMIENZO DEL CONTENIDO-->
+<body>
+    <header> <!--Este header contiene el logo y el nav menú-->
+        <div>
+            <img id="logo" src="/core/static/core/img/logo.jpg" alt="logo de la empresa"> <!--El atributo "alt" nos sirve para el SEO-->
+        </div>
+        <h1 id="titulo">SPA BAMBÚ</h1> <!--Este titulo debe ir centrado entre el logo y el nav menú-->
+        <nav class="navbar">
+            <ul>
+                <li><a>INICIO</a></li>
+                <li><a href="servicios" target="_blank">SERVICIOS</a></li>
+                <!-- El 'targe = "_blank"' es para dejar "fija y no perder" la pestaña del inicio y que se abran las otras pestañas del menú a un lado. USAR SOLO EN EL INDEX-->
+                <li><a href="Galeria" target="_blank">GALERÍA</a></li>
+                <li><a href="mis_reservas" target="_blank">RESERVAS</a></li>
+            </ul>
+        </nav>
+    </header> <!--Fin del header que es igual en las 4 pág-->
+
+    <br>
+    <br>
+
+    <main>
+        <div>
+            <section class="inicio">
+                <article>
+                    <!-- Se arma un carrousel con dos fotos ofreciendo servicios que se pueden compartir, la descripción puede ir en la foto -->
+                    <div class="carrousel">
+                        <!--En este div va un carrete de fotografias con algunos servicios, su título y una pequeña descripción-->
+                        <div class="fondo_grande">
+                            <img src="/core/static/core/img/spa con amigas.jpg" alt="spa con amigas" class="img">
+                            <img src="/core/static/core/img/spa en pareja.jpg" alt="spa en pareja" class="img">
+                        </div>
+
+                        <ul class="puntos">
+                            <li class="punto" class="activo"></li>
+                            <li class="punto" class="activo"></li>
+                        </ul>
+                        <!-- Se agrega un botón para ir a ver más servicios -->
+                        <a class="masServicios" href="servicios.html" target="_blank"><b>Ver más</b></a>
+                    </div>
+                </article>
+            
+                <article>
+                    <div class="titular">
+                        <h2>Un oasis de relajación para tu cuerpo y mente.</h2>
+                    </div>
+                </article>
+        
+                <article class="opiniones">
+                    <div class="clientes">
+                        <!--En este div va la sección de comentarios de los usuarios sobre el servicio-->
+                        <h3>OPINIONES DE CLIENTES</h3>
+                        <div class="opinion1">
+                            <p>"Me encantó el lugar, necesitaba relajarme después de una semana muy intensa en el
+                                trabajo y gracias al personal de Spa Bambú
+                                logré desestresarme y liberar tensión. Mi majase favorito fue el de piedras calientes."
+                            </p>
+                            <h4>Ana María</h4>
+                        </div>
+                        <div class="opinion2">
+                            <p>"¡¡Recomendable!! Mi esposa y yo hicimos el circuito en pareja y lo volveriamos a hacer
+                                mil veces más.
+                                Nos atendieron con la mejor onda y los masajes estuvieron estupendos."</p>
+                            <h4>Diego Duarte</h4>
+                        </div>
+                        <div class="opinion3">
+                            <p>"Quedamos re encantadas, vine con mis amigas e hicimos el circuito en grupo y luego
+                                disfrutamos de la pileta climatizada,
+                                pasamos un excelente día."</p>
+                            <h4>Lucia Alejandra</h4>
+                        </div>
+                    </div>
+                </article>
+              </div>
+
+                <article class="article2">
+                    <div class="quienes_somos">
+
+                        <h2>¿QUIÉNES SOMOS?</h2>
+
+                        <div class="descripcion">
+                            <p>Spa Bambú es un Spa Urbano de Salud, Placer y Belleza. Con años de trayectoria en el tratamiento de la salud y el trabajo físico, nuestra misión es lograr el bienestar integral de quienes nos visitan.</p>
+                        </div>
+                    </div>
+
+                </article>
+
+                <aside>
+                    <div class="videoInicio">
+                        <div class="promo">
+                            <iframe src="https://www.youtube.com/embed/wCt4rHavSRI" title="Cinematic massage sequence" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>  
+                </aside>
+
+                <article class="tablaValores">
+                    <div class="tabla">
+                        <table class="valores">
+                            <tr>
+                                <td>
+                                    <div class="column">
+                                        <h3>Nuestros valores</h3>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="column">
+                                        <h3>Servicio</h3>
+                                        <img class="icono" src="/core/static/core/ico/icono_servicios.png" alt="icono 1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="column">
+                                        <h3>Dedicación</h3>
+                                        <img class="icono" src="/core/static/core/ico/icono_dedicacion.png" alt="icono 2">
+                                    </div>
+                                   
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="column">
+                                        <h3>Compromiso</h3>
+                                        <img class="icono" src="/core/static/core/ico/icono_compromiso.png" alt="icono 3"> 
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="column">
+                                        <h3>Excelencia</h3>
+                                        <img class="icono" src="/core/static/core/ico/icono_excelencia.png" alt="icono 3">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="column">
+                                        <h3>Cooperación</h3>
+                                        <img class="icono" src="/core/static/core/ico/icono_trabajo.svg" alt="icono 4">
+                                    </div>  
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+
+        <div id="direccion">
+            <h3>Nuestro Spa</h3>
+            <p> Av. Arcoiris del Cielo 250 </p>
+            <p>E-mail: spabambu@gmail.org</p>
+        </div>
+
+        <div>
+            <iframe id="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3286.0826502707114!2d-58.47383975608753!3d-34.55146268524606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1695861439596!5m2!1ses-419!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div id="horarios">
+            <h3>Horarios de Atención</h3>
+            <p> Lunes a sábado de 9 am. a 10 pm.</p>
+            <p> Domingos de 10 am. a 7 pm.</p>
+        </div>
+
+        <div class="redes">
+            <h3>Siguenos en Nuestras Redes</h3>
+            <i class="fa-brands fa-instagram"></i>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <i class="fa-brands fa-facebook"></i> <!--Enlace del icon-->
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+        </div>            
+
+        <div class="contacto">
+            <h3>Contáctanos por WhatsApp</h3>
+            <i class="fa-brands fa-whatsapp"></i>
+            <a href="https://whatsapp.com" target="_blank">WhatsApp</a>
+        </div>
+       
+        <div id="copyright">
+            <h4>Copyright © 2023 Spa Bambú</h4>
+        </div>
+
+    </footer>
+
+    <script src="https://kit.fontawesome.com/2abd5c34d8.js" crossorigin="anonymous"></script>
+    <!--Este es el scrip de los icons-->
+    <script defer src="/core/static/core/javascript/funciones.js"></script>
+</body>
+
+</html>

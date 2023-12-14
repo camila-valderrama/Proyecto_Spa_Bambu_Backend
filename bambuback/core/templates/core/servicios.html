@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+{% load static %}  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVICIOS</title>..
+    <link rel="Shortcut icon" href="core\static\core\img\logo.ico" type="image/x-icon"> <!--ICO del logo -->
+    <link rel="stylesheet" href="core\static\core\css\style.css"> <!--Unir el CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--fuentes de google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>  <!--Este header contiene el logo y el nav menú-->
+        <div>
+            <img id="logo" src="core\static\core\img\logo.jpg" alt="logo de la empresa">
+        </div>
+        <h1 id="titulo">SPA BAMBÚ</h1> <!--Este tirulo debe ir centrado entre el logo y el nav menú-->
+        <nav class="navbar">
+            <ul>
+                <li><a href="index">INICIO</a></li> 
+                <li><a>SERVICIOS</a></li>
+                <li><a href="Galeria">GALERÍA</a></li>
+                <li><a href="mis_reservas">RESERVAS</a></li>
+            </ul>
+        </nav>
+    </header> <!--Fin del header que es igual en las 4 pág--> 
+
+
+    <main> <!--Dentro del main va todo el contenido--> 
+        <div>
+            <section class="cards">
+                <article data-aos="fade-up" data-aos-duration="3000" class="tarjeta">
+                    <div class="tarjeta-content">
+                        <h2>Servicios</h2>
+                        <a href="#">
+                            <figure class="thumbnail">
+                                <img src="core\static\core\img\masaje-con-piedras-calientes.jpg" alt="">
+                            </figure>
+                        </a>
+                        <h3>Masajes con piedras calientes</h3>
+                        <p>El masaje con piedras calientes es una técnica que combina el masaje terapéutico con la aplicación de piedras volcánicas. Éstas se aplican sobre el cuerpo llevándote a un nivel profundo de relajación como consecuencia de las diferentes temperaturas en las que se encuentran las piedras. 
+                            Se utiliza para ayudar a relajar y aliviar los músculos tensos, así como también, los tejidos blandos dañados en todo el cuerpo. </p>
+                        <div class="precio">
+                            <p>6000 pesos</p>
+                        </div>
+                        <button><a href="mis_reservas.html" target="_blank">Agregar al carrito</a></button>
+                    </div>
+                </article>
+                <article data-aos="fade-up" data-aos-duration="3000" class="tarjeta">
+                    <a href="#">
+                        <figure class="thumbnail">
+                            <img src="core\static\core\img\Masajes relajantes.PNG" alt="">
+                        </figure>
+                    </a>
+                    <div class="tarjeta-content">
+                        <h3>Masajes relajantes</h3>
+                        <p>El masaje relajante consiste en la realización de maniobras superficiales en las que la intensidad de la presión es suave y el ritmo lento y reiterativo, de manera que al recibir un contacto repetido y constante, se pierde la sensación de dolor y los músculos se relajan.</p>
+                        <div class="precio">
+                            <p>5000 pesos</p>
+                        </div>
+                        <button><a href="mis_reservas.html" target="_blank">Agregar al carrito</a></button>
+                    </div>
+                </article>
+                <article  data-aos="fade-up" data-aos-duration="3000"class="tarjeta">
+                    <a href="#">
+                        <figure class="thumbnail">
+                            <img src="core\static\core\img\Saunas.PNG" alt="">
+                        </figure>
+                    </a>
+                    <div class="tarjeta-content">
+                        <h3>Sauna</h3>
+                        <p>Un sauna es un baño de vapor a alta temperatura que puede aportar múltiples beneficios a tu cuerpo, como la sensación de descanso y relajación, además de ayudarte a limpiar tu piel o mejorar la circulación sanguínea.</p>
+                        <div class="precio">
+                            <p>4000 pesos</p>
+                        </div>
+                        <button><a href="mis_reservas.html" target="_blank">Agregar al carrito</a></button>
+                    </div>
+                </article>
+                <article data-aos="fade-up" data-aos-duration="3000" class="tarjeta">
+                    <a href="#">
+                        <figure class="thumbnail">
+                            <img src="core\static\core\img\Piletas (de spa).PNG" alt="">
+                        </figure>
+                    </a>
+                    <div class="tarjeta-content">
+                        <h3>Piletas</h3>
+                        <p>Piscinas con agua calentita puede ser muy beneficioso para la salud, el agua caliente tiene múltiples beneficios para el organismo como, por ejemplo: ayuda a tu piel, alivia pequeños dolores, reduce el estrés, ayudan a tu sistema inmunológico.</p>
+                        <div class="precio">
+                            <p>5000 pesos</p>
+                        </div>
+                        <button><a href="mis_reservas.html" target="_blank">Agregar al carrito</a></button>
+                    </div>
+                </article>
+                <article data-aos="fade-up" data-aos-duration="3000" class="tarjeta">
+                    <div class="tarjeta-content">
+                        <h2>Circuitos</h2>
+                        <a href="#">
+                            <figure class="thumbnail">
+                                <img src="core\static\core\img\Masajes con piedras calientes.PNG" alt="">
+                            </figure>
+                        </a>
+                        <h3>Circuito relajante</h3>
+                        <p>Déjate mimar por profesionales y disfrutar de una experiencia única. Masajes con piedras calientes. Masajes relajantes.<br> Pileta climatizada. Sauna </p>
+                        <div class="precio">
+                            <p>9500 pesos</p>
+                        </div>
+                        <button><a href="mis_reservas.html" target="_blank">Agregar al carrito</a></button>
+                    </div>
+                </article>
+                <article data-aos="fade-up" data-aos-duration="3000" class="tarjeta">
+                    <a href="#">
+                        <figure class="thumbnail">
+                            <img src="core\static\core\img\Circuito en pareja 3.PNG" alt="">
+                        </figure>
+                    </a>
+                    <div class="tarjeta-content">
+                        <h3>Circuito en pareja</h3>
+                        <p>La excusa ideal para pasar un día en pareja, juntos, haciendo algo diferente. Masajes con piedras calientes. Masajes relajantes. Pileta climatizada. Sauna.</p>
+                        <div class="precio">
+                            <p>15000 pesos</p>
+                        </div>
+                        <button><a href="mis_reservas.html" target="_blank">Agregar al carrito</a></button>
+                    </div>
+                </article>
+                <article data-aos="fade-up" data-aos-duration="3000" class="tarjeta">
+                    <a href="#">
+                        <figure class="thumbnail">
+                            <img src="core\static\core\img\Circuito en grupo.PNG" alt="">
+                        </figure>
+                    </a>
+                    <div class="tarjeta-content">
+                        <h3>Circuito en grupo</h3>
+                        <p>Disfruta con tus personas favoritas un día de Spa, ya sea para que se reconecten o fortalezcan su amistad de grupo.</p>
+                        <div class="precio">
+                            <p>30000 pesos</p>
+                        </div>
+                        <button><a href="mis_reservas.html" target="_blank">Agregar al carrito</a></button>
+                    </div>
+                </article>
+                <article data-aos="fade-up" data-aos-duration="3000" class="tarjeta">
+                    <a href="#">
+                        <figure class="thumbnail">
+                            <img src="core\static\core\img\Masajes relajantes.PNG" alt="">
+                        </figure>
+                    </a>
+                    <div class="tarjeta-content">
+                        <h3>Circuito detox</h3>
+                        <p>Descansa y volvé renovado. Tenemos las mejores técnicas para que salgas como nuevo. Masajes descontracturantes realizados con cremas a base de uvas y  aceites de semillas de uva.</p>
+                        <div class="precio">
+                            <p>8500 pesos</p>
+                        </div>
+                        <button><a href="mis_reservas.html" target="_blank">Agregar al carrito</a></button>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main> <!--Dentro del main va todo el contenido--> 
+
+<!-- Acá comienza el footer -->
+   <footer>
+
+        <div id="direccion">
+            <h3>Nuestro Spa</h3>
+            <p> Av. Arcoiris del Cielo 250 </p>
+            <p>E-mail: spabambu@gmail.org</p>
+        </div>
+
+        <div>
+            <iframe id="mapa"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3286.0826502707114!2d-58.47383975608753!3d-34.55146268524606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1695861439596!5m2!1ses-419!2sar"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div id="horarios">
+            <h3>Horarios de Atención</h3>
+            <p> Lunes a sábado de 9 am. a 10 pm.</p>
+            <p> Domingos de 10 am. a 7 pm.</p>
+        </div>
+
+        <div class="redes">
+            <h3>Siguenos en Nuestras Redes</h3>
+            <i class="fa-brands fa-instagram"></i>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <i class="fa-brands fa-facebook"></i> <!--Enlace del icon-->
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+        </div>            
+
+        <div class="contacto">
+            <h3>Contáctanos por WhatsApp</h3>
+            <i class="fa-brands fa-whatsapp"></i>
+            <a href="https://whatsapp.com" target="_blank">WhatsApp</a>
+        </div>
+   
+        <div id="copyright">
+            <h4>Copyright © 2023 Spa Bambú</h4>
+        </div>
+
+    </footer>  
+
+    <script src="https://kit.fontawesome.com/2abd5c34d8.js" crossorigin="anonymous"></script> <!--Este es el scrip de los icons-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
